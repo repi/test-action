@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
-ls -lR
+#ls -lR
 
-./cargo-deny check -L debug
+/./cargo-deny -L debug check

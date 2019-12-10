@@ -1,0 +1,18 @@
+name: "cargo-deny"
+description: ""
+author: "Embark Studios"
+
+branding:
+  icon: "slash"
+  color: "red"
+
+inputs:
+  command:
+    description: "The command to run with protolint"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.command }}

@@ -6,5 +6,6 @@ RUN tar -xzvf cargo-deny.tar.gz -C . --strip-components=1
 
 COPY entrypoint.sh /entrypoint.sh
 
-CMD ["./cargo-deny", "-L", "debug", "check"]
+#CMD ["./cargo-deny", "-L", "debug", "check"]
 #ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["./cargo-deny"]

@@ -6,4 +6,6 @@ RUN tar -xzvf cargo-deny.tar.gz -C . --strip-components=1
 
 COPY entrypoint.sh /entrypoint.sh
 
+#RUN ls -R
+
 ENTRYPOINT ["/entrypoint.sh"]

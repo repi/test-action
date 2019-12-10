@@ -2,4 +2,4 @@
 
 ls -lR
 
-cargo-deny check -L debug
+./cargo-deny check -L debug

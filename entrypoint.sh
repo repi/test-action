@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+ls -lR
+
 PATH=$PATH:./usr/local/cargo/bin
 
 cargo metadata

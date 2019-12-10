@@ -10,4 +10,4 @@ RUN ls -l
 
 #CMD ["./cargo-deny", "-L", "debug", "check"]
 #ENTRYPOINT ["/entrypoint.sh"]
-ENTRYPOINT ["./cargo-deny"]
+ENTRYPOINT ["/cargo-deny"]

@@ -1,8 +1,10 @@
 #!/bin/sh -l
 
-ls -lR
+ls -lR ./usr/local/cargo/bin
+
 
 PATH=$PATH:./usr/local/cargo/bin
+export PATH
 
 cargo metadata
 

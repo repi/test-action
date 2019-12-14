@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-ls -lR ./usr/local/cargo/bin
+ls -lR ./
 
 
 PATH=$PATH:./usr/local/cargo/bin

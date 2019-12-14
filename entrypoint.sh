@@ -2,4 +2,4 @@
 
 PATH=$PATH:/usr/local/cargo/bin
 
-/./cargo-deny -L debug check
+/./cargo-deny $1

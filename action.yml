@@ -1,5 +1,5 @@
 name: "cargo-deny"
-description: ""
+description: "Help manage Cargo crate dependencies and validate licenses"
 author: "Embark Studios"
 
 branding:
@@ -8,8 +8,9 @@ branding:
 
 inputs:
   command:
-    description: "The command to run with protolint"
-    required: true
+    description: "The command to run with cargo-deny"
+    required: false
+    default: "check"
 
 runs:
   using: "docker"
